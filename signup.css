@@ -1,0 +1,56 @@
+/* CSS Document */
+*{	
+	margin:0px;
+	padding:0px;
+	list-style:none;
+}
+html{
+	direction:ltr;
+}
+body{
+	background-image:url(wallpaper.jpg);
+	background-size:cover;
+	background-position:center;
+	background-attachment:fixed;
+}
+#main{
+	width:400px;
+	height:400px;
+	background-color:rgba(0,0,51,0.5);
+	padding:80px;
+	margin:30px auto;
+	color:white;	
+}
+.button{
+	width:70px;
+	height:25px;
+	margin-top:80px;
+	margin-left:20px;
+	}
+.star{
+	color:red;
+	
+	}
+#color{
+	background-color:white;
+	width:20px;
+	height:20px;
+	margin-left:20px;
+	
+	}
+#wrapper{
+	width:800px;
+	height:30px;
+	/*background-color:gold;*/
+	}
+#wrapper div{
+	float:left;
+	}
+#wrapper #password2{
+	margin-left:20px;
+}
+.birthday{
+	width:30px;
+	height:20px;
+	
+}

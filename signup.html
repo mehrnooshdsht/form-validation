@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>sign up</title>
+<link href="signup.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="signup.js"></script>
+</head>
+<body>
+<div id="main">
+  <form name="form1" id="form1" action="form.php" method="post" onsubmit="return formVal()">
+    <div>
+      <output id="usernameo1" class="star"></output>
+      username</div>
+    <div>
+      <input type="text" name="username" id="username" />
+      <output id="usernameo2" ></output>
+    </div>
+    <div>
+      <output id="password1" class="star"></output>
+      password</div>
+    <div id="wrapper">
+      <div>
+        <input type="password" name="password" id="password" />
+      </div>
+      <div id="color"></div>
+      <output id="password2"  ></output>
+    </div>
+    <div>
+      <output id="cpassword1" class="star"></output>
+      confirm password </div>
+    <div>
+      <input type="password" name="cpassword" id="cpassword" />
+      <output id="cpassword2"  ></output>
+    </div>
+    <div>
+      <output id="emailo1" class="star"></output>
+      email</div>
+    <div>
+      <input type="email" name="email" placeholder="id@sample.com" id="email" />
+      <output id="emailo2"  ></output>
+    </div>
+    <!-- <div>birthday: </div>
+	<div>
+    	<input type="date" />
+    </div>-->
+    
+    <div>
+      <output id="birthdayo1" class="star"></output>
+      birthday</div>
+    <div>
+      <input type="text" name="day" placeholder="1" id="day" class="birthday" maxlength="2" />
+      &nbsp;&nbsp;/&nbsp;&nbsp;
+      <input type="text" name="month" placeholder="1" id="month" class="birthday" maxlength="2" />
+      &nbsp;&nbsp;/&nbsp;&nbsp;
+      <input type="text" name="year" placeholder="1" id="year" class="birthday" maxlength="4" />
+      <output id="birthdayo2"  ></output>
+    </div>
+    <div>
+      <output id="sexo1" class="star"></output>
+      Gender: </div>
+    <div> Male:
+      <input type="radio" name="sex" id="sex" value="male" />
+      &nbsp;&nbsp;
+      Female:
+      <input type="radio" name="sex" id="sex" value="female" />
+      <output id="sexo2"></output>
+    </div>
+    <input type="reset" class="button" value="reset" class="button" />
+    <input type="submit" class="button" value="register" class="button" />
+  </form>
+</div>
+</body>
+</html>
